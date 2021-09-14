@@ -81,3 +81,6 @@ window.mainloop()
 
 # # close window
 # window.destroy()
+
+# test note
+print("test note")
