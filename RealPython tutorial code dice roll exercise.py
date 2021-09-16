@@ -8,13 +8,6 @@ Created on Wed Sep 15 21:21:48 2021
 import tkinter as tk
 from random import randint
 
-# for i in range(20):
-#     print(randint(0, 6))
-
-# goal= simulate dice roll
-# roll button bount to randint()
-# label to display randint() result
-
 window = tk.Tk()
 window.title("D6 Dice Roll")
 
@@ -26,7 +19,7 @@ def rollD6():
 
 
 button = tk.Button(text="Roll", width=20, relief=tk.RAISED, borderwidth=4, command=rollD6)
-label = tk.Label(text="roll to see your result")  # TODO f string text
+label = tk.Label(text="roll to see your result")
 
 button.pack()
 label.pack()
